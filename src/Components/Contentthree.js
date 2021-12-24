@@ -3,7 +3,7 @@ import React from 'react'
 function Contentthree(props) {
     return (
         <div>
-             <img src={props.src} className='content' alt=""/>
+             <img src={props.src} className='content' alt="watches"/>
              <h6 className='twoname'>{props.name}</h6>
         </div>
     )

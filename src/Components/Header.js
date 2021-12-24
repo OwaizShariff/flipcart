@@ -7,7 +7,7 @@ import More from './More';
 function Header(props) {
     return (
         <div className='header'>
-           <img className='img' src="https://1000logos.net/wp-content/uploads/2021/02/Flipkart-Logo-2007.png" width="150px" height="60px"/>
+           <img className='img' src="https://1000logos.net/wp-content/uploads/2021/02/Flipkart-Logo-2007.png" width="150px" height="60px" alt="logo"/>
                <input className='input' placeholder='Search for products, brands and more' type="text" />
                <SearchIcon className='search'/>
                <button className='login'>Login</button>

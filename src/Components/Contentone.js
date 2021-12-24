@@ -4,7 +4,7 @@ import "./Header.css"
 function Contentone(props) {
     return (
         <div>
-             <img src={props.src} className='content'/>
+             <img src={props.src} className='content' alt="clothes"/>
             <h6 className="contentname">{props.name}</h6>
         </div>
     )
